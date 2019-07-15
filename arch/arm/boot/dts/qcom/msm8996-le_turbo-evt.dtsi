@@ -41,7 +41,11 @@
 &dsi_samsung_cmd {
 	qcom,mdss-dsi-bl-min-level = <1>;
 	qcom,mdss-dsi-bl-max-level = <4095>;
+<<<<<<< HEAD
 	qcom,mdss-brightness-max-level = <255>;
+=======
+	qcom,mdss-brightness-max-level = <4095>;
+>>>>>>> 4c2e6b11d76e... import LeEco Le Max 3 (x850)
 	qcom,cont-splash-enabled;
 	qcom,panel-supply-entries = <&dsi_panel_pwr_supply_no_labibb>;
 
@@ -416,6 +420,7 @@
 	status = "disabled";
 };
 
+<<<<<<< HEAD
 &i2c_9 {
 	drv2604l@5a {
 		status = "ok";
@@ -431,12 +436,18 @@
 		enable-gpio = <&tlmm 38 0>;
 	};
 };
+=======
+>>>>>>> 4c2e6b11d76e... import LeEco Le Max 3 (x850)
 /*haptics end*/
 
 /{
 	mtp_batterydata: qcom,battery-data {
 		qcom,batt-id-range-pct = <15>;
+<<<<<<< HEAD
 		#include "batterydata-le-x2-3200mah.dtsi"
+=======
+		#include "batterydata-le_x2-3200mah.dtsi"
+>>>>>>> 4c2e6b11d76e... import LeEco Le Max 3 (x850)
 	};
 };
 

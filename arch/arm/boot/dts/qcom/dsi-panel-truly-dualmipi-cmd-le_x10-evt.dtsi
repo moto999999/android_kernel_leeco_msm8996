@@ -60,7 +60,11 @@
 		qcom,mdss-dsi-t-clk-pre = <0x2d>;
 		qcom,mdss-mdp-transfer-time-us = <10000>;
 		qcom,mdss-dsi-bl-max-level = <4095>;
+<<<<<<< HEAD
 		qcom,mdss-brightness-max-level = <255>;
+=======
+		qcom,mdss-brightness-max-level = <4095>;
+>>>>>>> 4c2e6b11d76e... import LeEco Le Max 3 (x850)
 		qcom,mdss-dsi-dma-trigger = "trigger_sw";
 		qcom,mdss-dsi-mdp-trigger = "none";
 		qcom,mdss-dsi-te-pin-select = <1>;
