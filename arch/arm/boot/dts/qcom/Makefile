@@ -22,7 +22,8 @@ dtb-$(CONFIG_ARCH_MSM8996) += \
 	msm8996-v3-pmi8996-le_x2_na-dvt2.dtb \
 	msm8996-v3-pmi8996-le_x2_na-pvt.dtb \
 	msm8996-v3-pmi8994-le_x2_na-pvt.dtb \
-	msm8996pro-v3-pmi8996-le_x2-pvt.dtb
+	msm8996pro-v3-pmi8996-le_x2-pvt.dtb \
+	msm8996pro-pmi8996-le_x10-dvt1.dtb
 endif
 
 ifeq ($(CONFIG_PRODUCT_LE_ZL1),y)
