@@ -50,7 +50,7 @@
 		qcom,mdss-dsi-bl-min-level = <1>;
 		qcom,cont-splash-enabled;
 		qcom,panel-supply-entries = <&dsi_panel_pwr_supply>;
-		qcom,mdss-dsi-panel-timings-8996 = [23 1e 07 08 05 03 04 a0
+		qcom,mdss-dsi-panel-timings-phy-v2 = [23 1e 07 08 05 03 04 a0
 						23 1e 07 08 05 03 04 a0
 						23 1e 07 08 05 03 04 a0
 						23 1e 07 08 05 03 04 a0
@@ -89,7 +89,7 @@
 		qcom,mdss-dsi-off-command = [05 01 00 00 3c 00 02 28 00
 					05 01 00 00 78 00 02 10 00];
 		qcom,mdss-dsi-off-command-state = "dsi_hs_mode";
-		qcom,mdss-tear-check-sync-cfg-height = <2580>;
+		//qcom,mdss-tear-check-sync-cfg-height = <2580>;
 		dsi_trulypvt_qhd_dualdsi_cmd_le_x2_config0: config0 {
 		qcom,split-mode = "pingpong-split";
 		};

@@ -10,9 +10,9 @@
  * GNU General Public License for more details.
  */
 
-#include "msm8996-le-common.dtsi"
 #include "msm8996-mtp-le-common.dtsi"
 #include "msm8996-pinctrl-le_x10.dtsi"
+#include "msm8996-le-common.dtsi"
 #include "msm8996-twl80125-regulator.dtsi"
 #include "msm8996-camera-sensor-le_x10-dvt1.dtsi"
 #include "letv-tp-atmel_mxt_ts-le_x10-dvt1.dtsi"
@@ -463,7 +463,7 @@
 /{
 	mtp_batterydata: qcom,battery-data {
 		qcom,batt-id-range-pct = <15>;
-		#include "batterydata-le-x2-3200mah.dtsi"
+		#include "batterydata-le_x2-3200mah.dtsi"
 	};
 };
 
